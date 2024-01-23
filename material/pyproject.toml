@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "MaterialIcons"
+version = "2.0.0"
+description = "Simple 'Material' icons Compiled, to use with Qtica."
+authors = ["Osama Mohammed Al-zabidi <omamkaz@gmail.com>"]
+license = "GPL-3.0"
+keywords = [
+    "qt",
+    "pyside6",
+    "python",
+    "declarative",
+    "qml",
+    "Qtica",
+    "fast",
+    "easy",
+    "material",
+    "icons",
+]
+documentation = "https://omamkaz.gitbook.io/qtica"
+repository = "https://github.com/omamkaz/Qtica"
+packages = [{ include = "material" }]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

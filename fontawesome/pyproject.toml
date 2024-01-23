@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "FontawesomeIcons"
+version = "2.0.0"
+description = "Simple 'Fontawesome' icons Compiled, to use with Qtica."
+authors = ["Osama Mohammed Al-zabidi <omamkaz@gmail.com>"]
+license = "GPL-3.0"
+keywords = [
+    "qt",
+    "pyside6",
+    "python",
+    "declarative",
+    "qml",
+    "Qtica",
+    "fast",
+    "easy",
+    "fontawesome",
+    "icons",
+]
+documentation = "https://omamkaz.gitbook.io/qtica"
+repository = "https://github.com/omamkaz/Qtica"
+packages = [{ include = "fontawesome" }]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
